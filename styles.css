@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    height: 35vh;
+    background-image: linear-gradient(to right, rgba(140, 140, 239, 0.5), rgba(22, 22, 200, 0.5)), url(meggy.jpg);
+    background-position: center;
+}
+
+header {
+    margin-top: -26vh;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3vw;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 255, 0.3);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.input-container {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1rem blue;
+    border-radius: 10px;
+}
+
+#desc {
+    width: 90%;
+    border: none;
+
+}
+
+#desc:focus {
+    outline: none;
+    border-bottom: 1px solid blue;
+}
+
+.fa-plus {
+    cursor: pointer;
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.todolist-container {
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem blue;
+    padding: 1rem;
+    overflow: auto;
+    height: 50vh
+}
+
+.todoitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid lightskyblue;
+}
+
+.fa-trash-can {
+    cursor: pointer;
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.done {
+    text-decoration: line-through;
+}
